@@ -1,0 +1,122 @@
+body{
+    max-width: 1000px;
+    width: 100vw;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.main-container{
+    height: 100vh;
+    background: gold;
+    
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding-top: 50px;
+    color: #a35b5b;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+
+h1{
+    margin: 0;
+}
+
+.connecterDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+}
+
+.eachCir{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    margin-bottom: 15px;
+   
+}
+.red{
+    background: #f76c6c;
+}
+
+.black{
+    background: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+.inputPlayerNames{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.inName{
+    font-size: 17px;
+    
+    border: none;
+    border-bottom: 1px solid #1c77ac;
+}
+
+.nextBtn{
+    margin-top: 20px;
+    background: #1c77ac;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.nextBtn:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.resetbtnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#resetBtn{
+    background: red;
+    border:none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+}

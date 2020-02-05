@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect 4</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="popup" id="popup">
+            <div class="inputPlayerNames" id="inputPlayersNames">
+                <h1>Welcome to Connect 4</h1>
+                <h3 id="player1">Player 1</h3>
+                <input type="text" placeholder="Player name" id="inputName" class="inName" />
+                <button id="nextBtn" class="nextBtn">Next</button>
+            </div>
+        </div>
+        <div class="popup" id="popup2">
+            <div class="inputPlayerNames" id="inputPlayersNames2">
+                <h1>Welcome to Connect 4</h1>
+                <h3 id="player2">Player 2</h3>
+                <input type="text" placeholder="Player name" id="inputName2" class="inName" />
+                <button id="nextBtn2" class="nextBtn">Play</button>
+            </div>
+        </div>
+
+        <div class="players">
+            <h1 id="p1Tag"></h1>
+            <h1 id='playersScore'></h1>
+            <h1 id="p2Tag"></h1>
+        </div>
+
+        <div class="turns"></div>
+        <div class="connecterDisplay"></div>
+        <div class="resetbtnDiv">
+                <button id="resetBtn">Restart</button>
+        </div>
+        
+    </div>
+</body>
+
+</html>
