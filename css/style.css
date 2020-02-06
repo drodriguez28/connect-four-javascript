@@ -91,12 +91,12 @@ h1{
     font-size: 17px;
     
     border: none;
-    border-bottom: 1px solid #1c77ac;
+    border-bottom: 1px solid orange;
 }
 
 .nextBtn{
     margin-top: 20px;
-    background: #1c77ac;
+    background: orange;
     color: #fff;
     padding: 8px 20px;
     border: none;
