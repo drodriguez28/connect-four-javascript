@@ -1,8 +1,12 @@
+// shows score and players data 
 const mainBoard = document.querySelector('.connecterDisplay')
 let playersScore = document.querySelector('#playersScore')
 let p1Tag = document.getElementById('p1Tag')
 let p2Tag = document.getElementById('p2Tag')
 
+
+
+//this is the pop up in when the game starts 
 const nameBox = () =>{
     let inputDiv = document.querySelector('#popup')
     let inputDiv2 = document.querySelector('#popup2')
@@ -15,7 +19,7 @@ const nameBox = () =>{
     let inputBtn2 = document.querySelector('#nextBtn2')
 
 
-
+// the block of the inputing the names 
     inputDiv.style.display = 'block'
     inputDiv2.style.display = 'none'
 
@@ -70,7 +74,7 @@ const createBoard = () => {
     //clear the createboard function inside the html
     mainBoard.innerHTML = ''
 
-    //create divs of rows
+    //creating divs of rows
     for (let row = 0; row < board.length; row++) {
         let rowElement = document.createElement('div')
         rowElement.setAttribute('class', 'row')
@@ -79,7 +83,7 @@ const createBoard = () => {
         
         let rowBtn = document.getElementsByClassName('row')
 
-        //creaet divs in each rows
+        //creating divs in each rows
         for (let col = 0; col < board[row].length; col++) {
             let colElement = document.createElement('div')
             colElement.setAttribute('class', 'eachCir empty')
@@ -152,6 +156,8 @@ const checkEmptyColumn = (column) => {
     }
 }
 
+
+// when the rest button is hit this is.. it makes a new board again 
 const resetBtn = document.querySelector('#resetBtn')
 resetBtn.addEventListener('click', () => {
     location.reload()
@@ -168,6 +174,9 @@ const reset = () => {
 
     createBoard()
 }
+
+
+// game functional all below 
 
 function checkRow() {
 
