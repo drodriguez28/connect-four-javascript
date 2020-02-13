@@ -1,3 +1,6 @@
+
+
+
 // shows score and players data 
 const mainBoard = document.querySelector('.connecterDisplay')
 let playersScore = document.querySelector('#playersScore')
@@ -307,3 +310,7 @@ function checkRtoL() {
     }
 
 }
+
+
+
+// Credits to Vithusan Kanageswaran - https://github.com/vithusan/connect4
