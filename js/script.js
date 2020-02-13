@@ -53,6 +53,7 @@ const nameBox = () =>{
 
 }
 
+// The Board making 
 
 nameBox()
 let board = [
@@ -176,7 +177,16 @@ const reset = () => {
 }
 
 
-// game functional all below 
+// Game functional all below 
+
+
+
+
+
+
+
+
+// winning functionality going of the ROWS column 
 
 function checkRow() {
 
@@ -206,6 +216,8 @@ function checkRow() {
 
 }
 
+// winning functionality going of the WHOLE column 
+
 
 function checkColumn() {
 
@@ -234,6 +246,9 @@ function checkColumn() {
     }
 }
 
+// winning functionality from left to right  
+
+
 function checkLtoR() {
 
    
@@ -261,6 +276,9 @@ function checkLtoR() {
     }
 
 }
+
+
+// winning functionality from right to left 
 
 function checkRtoL() {
 
